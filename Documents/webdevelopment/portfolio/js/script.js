@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 	$('.owl-carousel').owlCarousel({
 		    loop:true,
-		    items:4,
+		    items:7,
 		    responsive:{
 		        0:{
 		            items:1
@@ -47,6 +47,15 @@ $(document).ready(function() {
 		        },
 		        938:{
 		            items:4
+		       },
+		         2038:{
+		            items:5
+		        },
+		         2538:{
+		            items:6
+		        },
+		         3038:{
+		            items:7
 		        }
 		    }
 	});
